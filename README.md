@@ -14,7 +14,7 @@ I noticed some of the users weren't on the same UPN so I opened PowerShell to ru
  ---
  ---
 
- This is the script I typed up for changes all users UPN. What the script is doing is looking for all of the users in the $users variable I created to find which users don't have the UPN "millinertech.local".<br><br>
+ This is the script I typed up for changing all users UPN. What the script is doing is looking for all of the users in the $users variable I created to find which users don't have the UPN "millinertech.local".<br><br>
 ![Dashboard Screenshot](images/img2.png)<br><br><br>
 
 ---
