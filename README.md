@@ -7,16 +7,18 @@
 - Troubleshooting and verifying account updates in a domain environment
 
 ---
+### Users not on UPN
+I noticed some of the users weren't on the same UPN so I opened PowerShell to run a script to change all UPNs of users not on millinertech.local.
+![Dashboard Screenshot](images/img1.png)
 
-![Dashboard Screenshot](images/img1.png)
-![Dashboard Screenshot](images/img1.png)
-![Dashboard Screenshot](images/img1.png)
-![Dashboard Screenshot](images/img1.png)
-![Dashboard Screenshot](images/img1.png)
-![Dashboard Screenshot](images/img1.png)
-![Dashboard Screenshot](images/img1.png)
-![Dashboard Screenshot](images/img1.png)
-![Dashboard Screenshot](images/img1.png)
-![Dashboard Screenshot](images/img1.png)
-![Dashboard Screenshot](images/img1.png)
-![Dashboard Screenshot](images/img1.png)
+ ---
+ ---
+
+ This is the script I typed up for changes all users UPN. What the script is doing is looking for all of the users in the $users variable I created to find which users don't have the UPN "millinertech.local".
+![Dashboard Screenshot](images/img2.png)
+
+---
+---
+
+### The Outcome
+![Dashboard Screenshot](images/img3.png)
